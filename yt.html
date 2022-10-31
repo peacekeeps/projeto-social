@@ -11,15 +11,39 @@
             padding: 0;
         }
 
-        body {
-            width: 100%;
-            height: 100vh;
-            background: black url("imagens/tela-youtube.jpg") no-repeat top center;
-            background-size:cover;
+        ::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+
+        img {
+            width: 100vw;
+        }
+
+        a {
+            display: block;
+            background-color: red;
+            color: black;
+            width: 100vw;
+            padding: 1rem 0;
+            margin-top: -4px;
+            text-align: center;
+            text-decoration: none;
+            font-variant:small-caps;
+            font-weight: bolder;
+            font-size: 2.5rem;
+        }
+
+        a:hover {
+            transition: letter-spacing .5s, background-color 0s, text-decoration .5s;
+            letter-spacing: 2px;
+            background-color: rgb(255, 91, 91);
         }
     </style>
 </head>
 <body>
-
+    <img src="imagens/tela-youtube.png
+    " alt="Youtube">
+    <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">Acesse Aqui</a>
 </body>
 </html>
